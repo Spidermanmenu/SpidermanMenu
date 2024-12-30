@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiderman Cafe Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(45deg, #ff0000, #0000ff);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 80px;
+            opacity: 0.8;
+        }
+        .menu-section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 2px solid #ddd;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .menu-section h2 {
+            text-align: center;
+            background: #0000ff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .order-section {
+            padding: 20px;
+            text-align: center;
+            background: #ff0000;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .order-section p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .order-section strong {
+            font-size: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #000;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .spiderman-web {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background: url('spider-web.png') no-repeat center center;
+            background-size: cover;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spiderman Cafe Menu</h1>
+        <img src="spiderman-icon.png" alt="Spiderman">
+    </header>
+
+    <div class="menu-section">
+        <h2>Hot Beverages</h2>
+        <div class="menu-item">
+            <span>Single Espresso</span>
+            <span>25t</span>
+        </div>
+        <div class="menu-item">
+            <span>Double Espresso</span>
+            <span>50t</span>
+        </div>
+        <div class="menu-item">
+            <span>Tall Latte</span>
+            <span>50t</span>
+        </div>
+        <div class="menu-item">
+            <span>Grande Latte</span>
+            <span>60t</span>
+        </div>
+        <div class="menu-item">
+            <span>Black Tea</span>
+            <span>10t</span>
+        </div>
+        <div class="menu-item">
+            <span>Herbal Infusions</span>
+            <span>30t</span>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Breakfast Items</h2>
+        <div class="menu-item">
+            <span>Eggs</span>
+            <span>20t</span>
+        </div>
+        <div class="menu-item">
+            <span>Pancake</span>
+            <span>10t</span>
+        </div>
+        <div class="menu-item">
+            <span>Jellies</span>
+            <span>20t</span>
+        </div>
+    </div>
+
+    <div class="order-section">
+        <p>To place an order, please reach out at:</p>
+        <strong>313-228-1868</strong>
+        <p>Note: Pancakes and Jellies require a day’s advance order.</p>
+        <p>Eggs are served only on weekends.</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Spiderman Cafe. All Rights Reserved.
+    </footer>
+
+    <div class="spiderman-web"></div>
+</body>
+</html>
